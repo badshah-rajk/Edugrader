@@ -1,0 +1,19 @@
+# EduGrader — Python dependencies
+# Install with: pip install -r requirements.txt
+
+customtkinter>=5.2.0
+Pillow>=10.0.0
+pymupdf>=1.23.0          # PyMuPDF — PDF rendering (fitz)
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+requests>=2.28.0
+
+# Optional but recommended — Tesseract Python wrapper
+# Also install the Tesseract binary:
+#   Ubuntu/Debian: sudo apt install tesseract-ocr tesseract-ocr-eng
+#   macOS:         brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
+pytesseract>=0.3.10
+
+# Optional — for PDF export (already covered by Pillow)
+# pdf2image>=1.16.0
